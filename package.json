@@ -1,0 +1,17 @@
+{
+  "name": "quetzales-shop",
+  "version": "1.0.0",
+  "description": "quetzales stationery shop",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "javascript",
+    "babel",
+    "webpack"
+  ],
+  "author": "Diego Gutiérrez <diegogutcat28@gmail.com>",
+  "license": "ISC"
+}
