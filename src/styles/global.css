@@ -1,0 +1,14 @@
+:root {
+	--primary: #6AB99E;
+	--white: #FFFCFC;
+}
+
+body{
+	font-family: 'Quicksand', sans-serif;
+	background: var(--white);
+}
+
+.txt-medium {
+	font-weight: 700;
+	font-size: 18px;
+}
