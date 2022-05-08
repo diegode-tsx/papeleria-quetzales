@@ -1,14 +1,14 @@
-.logo {
+.Logo {
 	display: flex;
 	align-items: center;
 }
 
-.logo img {
+.Logo-image {
    width: 60px;
    vertical-align: top;
 }
 
-.logo p {
+.Logo-name {
    font-family: "Montserrat";
    font-weight: 800;
    font-size: 32px;

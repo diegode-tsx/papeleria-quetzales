@@ -5,9 +5,9 @@ import logo from "@assets/logos/quetzales.png";
 
 const Logo = () => {
    return (
-      <div className="logo">
-         <img src={logo} alt="" />
-         <p>Quetzales</p>
+      <div className="Logo">
+         <img src={logo} alt="" className="Logo-image"/>
+         <p className="Logo-name">Quetzales</p>
       </div>
    );
 };

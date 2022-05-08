@@ -1,14 +1,70 @@
 :root {
-	--primary: #6AB99E;
-	--white: #FFFCFC;
+   --primary: #6ab99e;
+   --zomp: #4ea688;
+   --cinnamon: #b96a86;
+   --violet: #766ab9;
+   --copper: #b96a6b;
+   --white: #fffcfc;
+   --black: #424242;
+   --gray: #727272;
 }
 
-body{
-	font-family: 'Quicksand', sans-serif;
-	background: var(--white);
+body {
+   font-family: "Quicksand", sans-serif;
+   background: var(--white);
+}
+
+.title-big {
+   font-weight: 700;
+   font-size: 36px;
+}
+
+.title-main {
+   font-weight: 700;
+   font-size: 32px;
+}
+
+.title-secondary {
+   font-weight: 700;
+   font-size: 24px;
+}
+
+.txt-extra-big {
+   font-weight: 400;
+   font-size: 28px;
+}
+
+.txt-big {
+   font-weight: 500;
+   font-size: 20px;
 }
 
 .txt-medium {
-	font-weight: 700;
-	font-size: 18px;
+   font-weight: 700;
+   font-size: 18px;
+}
+
+.txt-main-bold {
+   font-weight: 700;
+   font-size: 16px;
+}
+
+.txt-main {
+   font-weight: 400;
+   font-size: 16px;
+}
+
+.txt-secondary-bold {
+   font-weight: 500;
+   font-size: 14px;
+}
+
+.txt-secondary {
+   font-weight: 400;
+   font-size: 14px;
+}
+
+.txt-tiny {
+   font-weight: 500;
+   font-size: 12px;
 }

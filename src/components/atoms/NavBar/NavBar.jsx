@@ -3,10 +3,10 @@ import './NavBar.css';
 
 const NavBar = () => {
 	return (
-		<div className="nav-bar">
-			<p className='txt-medium'>Categorías</p>
-			<p className='txt-medium'>Facturación</p>
-			<p className='txt-medium'>Nosotros</p>
+		<div className="NavBar">
+			<p className='NavBar-option txt-medium'>Categorías</p>
+			<p className='NavBar-option txt-medium'>Facturación</p>
+			<p className='NavBar-option txt-medium'>Nosotros</p>
 		</div>
 	);
 }
