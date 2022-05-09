@@ -19,6 +19,7 @@ body {
    font-family: "Quicksand", sans-serif;
    background: var(--white);
 	margin: 0 70px;
+	color: var(--black);
 }
 
 .title-big {

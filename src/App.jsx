@@ -1,9 +1,10 @@
 import React from "react";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fas } from "@fortawesome/free-solid-svg-icons";
-import Logo from "@atoms/Logo/Logo";
-import NavBar from "@atoms/NavBar/NavBar";
-import Button from "@atoms/Button/Button";
+import Logo from "@atoms/Logo";
+import NavBar from "@atoms/NavBar";
+import Button from "@atoms/Button";
+import CardProductInfo from "@atoms/CardProductInfo";
 import "./styles/global.css";
 
 const App = () => {
@@ -13,11 +14,12 @@ const App = () => {
          <Logo />
          <NavBar />
          <Button
-            text="Ingresar"
-            style="outline"
-            size="big"
+            text="Registrarse"
+            style="fill"
+            size="full-width"
             icon="user-plus"
          />
+         <CardProductInfo theme='cinnamon'/>
       </div>
    );
 };

@@ -13,6 +13,7 @@
 	margin-right: 10px;
 }
 
+/*Styles*/
 .Button-fill {
    background: var(--primary);
    border: 2px solid var(--zomp);
@@ -34,6 +35,7 @@
    color: var(--white);
 }
 
+/*Sizes*/
 .Button-full-width {
 	width: 100%;
 	justify-content: center;
