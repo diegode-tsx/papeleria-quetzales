@@ -9,9 +9,16 @@
    --gray: #727272;
 }
 
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 body {
    font-family: "Quicksand", sans-serif;
    background: var(--white);
+	margin: 0 70px;
 }
 
 .title-big {
