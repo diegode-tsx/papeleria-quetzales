@@ -1,0 +1,22 @@
+.BagButton {
+	font-family: "Quicksand";
+	padding: 10px;
+	cursor: pointer;
+	border-radius: 3px;
+	border: 2px solid var(--primary);
+	background: var(--white);
+	color: var(--primary);
+	transition: 0.3s ease all;
+	display: flex;
+	align-items: center;
+}
+
+.BagButton:hover {
+	background: var(--primary);
+	color: var(--white);
+	border: 2px solid var(--zomp);
+}
+
+.BagButton svg {
+	margin-left: 10px;
+}

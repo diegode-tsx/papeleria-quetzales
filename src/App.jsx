@@ -5,6 +5,7 @@ import Logo from "@atoms/Logo";
 import NavBar from "@atoms/NavBar";
 import Button from "@atoms/Button";
 import CardProductInfo from "@atoms/CardProductInfo";
+import BagButton from "@atoms/BagButton";
 import "./styles/global.css";
 
 const App = () => {
@@ -15,11 +16,12 @@ const App = () => {
          <NavBar />
          <Button
             text="Registrarse"
-            style="fill"
+            style="outline"
             size="full-width"
             icon="user-plus"
          />
          <CardProductInfo theme='cinnamon'/>
+			<BagButton />
       </div>
    );
 };

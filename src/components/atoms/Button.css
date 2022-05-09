@@ -32,6 +32,7 @@
 
 .Button-outline:hover {
    background: var(--primary);
+	border: 2px solid var(--zomp);
    color: var(--white);
 }
 
