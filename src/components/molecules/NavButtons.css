@@ -1,0 +1,12 @@
+.NavButtons {
+	display: flex;
+}
+
+.NavButtons .BagButton,
+.NavButtons .Button {
+	margin-right: 10px;
+}
+
+.NavButtons .Button:last-child {
+	margin: 0;
+}
