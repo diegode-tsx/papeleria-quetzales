@@ -13,7 +13,9 @@ const Header = () => {
 				<NavBar />
 				<NavButtons />
 			</div>
-			<NavSearch />
+			<div className="Header-search">
+				<NavSearch />
+			</div>
 		</div>
 	);
 };

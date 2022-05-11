@@ -15,3 +15,14 @@
 .Header-nav .NavButtons {
 	justify-content: flex-end;
 }
+
+.Header-search {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-gap: 20px;
+}
+
+.Header-search .NavSearch {
+	grid-column-start: 5;
+	grid-column-end: 9;
+}

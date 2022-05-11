@@ -11,6 +11,7 @@
 	font-family: 'Quicksand';
 	transition: 0.3s ease all;
 	color: var(--black);
+	width: 100%;
 }
 
 .NavSearch-input:focus {
