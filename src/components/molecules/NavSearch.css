@@ -1,0 +1,23 @@
+.NavSearch {
+	display: inline-flex;
+	border: 2px solid var(--zomp);
+	border-radius: 3px;
+}
+
+.NavSearch-input {
+	padding: 10px;
+	border: none;
+	outline: none;
+	font-family: 'Quicksand';
+	transition: 0.3s ease all;
+	color: var(--black);
+}
+
+.NavSearch-input:focus {
+	background: var(--primary);
+	color: var(--white);
+}
+
+.NavSearch .Button {
+	border-radius: 0;
+}

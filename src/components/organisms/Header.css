@@ -1,0 +1,17 @@
+.Header {
+	text-align: center;
+}
+
+.Header-nav {
+	display: flex;
+	align-items: center;
+}
+
+.Header-nav .Logo, 
+.Header-nav .NavButtons {
+	flex: 1;
+}
+
+.Header-nav .NavButtons {
+	justify-content: flex-end;
+}
