@@ -1,0 +1,37 @@
+.Input {
+   position: relative;
+   padding-top: 25px;
+}
+
+.Input-field {
+   padding: 10px;
+   border: 2px solid var(--primary);
+   border-radius: 3px;
+   outline: none;
+	color: var(--black);
+   transition: 0.3s ease all;
+   font-family: "Quicksand";
+   font-weight: 500;
+   font-size: 14px;
+}
+
+.Input-field:focus {
+   border-color: var(--zomp);
+   background: var(--primary);
+   color: var(--white);
+}
+
+.Input-field:focus + label {
+   background: var(--zomp);
+   color: var(--white);
+}
+
+.Input-label {
+   position: absolute;
+   top: 0;
+   left: 0;
+   padding: 0 10px;
+   border-radius: 3px;
+   color: var(--gray);
+   transition: 0.3s ease all;
+}

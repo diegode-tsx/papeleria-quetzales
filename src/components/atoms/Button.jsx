@@ -1,19 +1,15 @@
 import React from "react";
-import propTypes from "prop-types";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./Button.css";
 
 const Button = (props) => {
-   const { icon, text, style, size } = props;
+   const { icon, text, style, size, type } = props;
    return (
-      <button className={`Button ${style} ${size}`}>
+      <button className={`Button ${style} ${size}`} type={type}>
          <FontAwesomeIcon icon={["fas", icon]} />
          {text}
       </button>
    );
 };
 
-Button.propTypes = {
-	
-}
 export default Button;

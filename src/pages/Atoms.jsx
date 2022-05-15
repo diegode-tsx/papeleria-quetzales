@@ -5,6 +5,7 @@ import Button from "@atoms/Button";
 import CardProductInfo from "@atoms/CardProductInfo";
 import BagButton from "@atoms/BagButton";
 import AddToBagButton from "@atoms/AddToBagButton";
+import Input from "@atoms/Input";
 
 const Atoms = () => {
    return (
@@ -20,6 +21,7 @@ const Atoms = () => {
          <CardProductInfo theme="cinnamon" />
          <BagButton />
          <AddToBagButton theme="cinnamon" />
+         <Input type="text" text="Nombre" />
       </div>
    );
 };
