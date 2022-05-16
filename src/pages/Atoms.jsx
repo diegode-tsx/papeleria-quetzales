@@ -8,6 +8,8 @@ import AddToBagButton from "@atoms/AddToBagButton";
 import Input from "@atoms/Input";
 import Select from "@atoms/Select";
 import GoogleButton from "@atoms/GoogleButton";
+import Controls from "@atoms/Controls";
+import BagProductInfo from "@atoms/BagProductInfo";
 
 const Atoms = () => {
    return (
@@ -20,12 +22,14 @@ const Atoms = () => {
             size="medium"
             icon="user-plus"
          />
-         <CardProductInfo theme="cinnamon" />
+         <GoogleButton />
          <BagButton />
          <AddToBagButton theme="cinnamon" />
+         <CardProductInfo theme="cinnamon" hasDiscount={true}/>
+         <Controls theme="gray" />
+         <BagProductInfo />
          <Input type="text" text="Nombre" />
-			<Select />
-			<GoogleButton />
+         <Select />
       </div>
    );
 };

@@ -1,0 +1,9 @@
+.BagProductInfo {
+   display: flex;
+	align-items: center;
+}
+
+.BagProductInfo-image {
+   width: 75px;
+	margin-right: 15px;
+}

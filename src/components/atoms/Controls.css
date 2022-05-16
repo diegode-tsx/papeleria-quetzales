@@ -1,0 +1,52 @@
+.Controls-button {
+   padding: 0 10px;
+   background: var(--white);
+   border-radius: 3px;
+	transition: 0.2s ease all;
+	cursor: pointer;
+}
+
+.Controls-counter {
+   margin: 0 10px;
+}
+
+/*Themes*/
+.Controls-button.cinnamon {
+   color: var(--cinnamon);
+   border: 1px solid var(--cinnamon);
+}
+
+.Controls-button.cinnamon:hover {
+   background: var(--cinnamon);
+}
+
+.Controls-button.violet {
+   color: var(--violet);
+   border: 1px solid var(--violet);
+}
+
+.Controls-button.violet:hover {
+   background: var(--violet);
+}
+
+.Controls-button.copper {
+   color: var(--copper);
+   border: 1px solid var(--copper);
+}
+
+.Controls-button.copper:hover {
+   background: var(--copper);
+}
+
+.Controls-button.gray {
+   color: var(--gray);
+   border: 1px solid var(--gray);
+}
+
+.Controls-button.gray:hover {
+   background: var(--gray);
+}
+
+.Controls-button:hover {
+   color: var(--white);
+}
