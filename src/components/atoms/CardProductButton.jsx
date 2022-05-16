@@ -1,14 +1,14 @@
 import React from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import './AddToBagButton.css';
+import './CardProductButton.css';
 
-const AddToBagButton = ({theme}) => {
+const CardProductButton = ({theme}) => {
 	return (
-		<button className={`AddToBagButton txt-main-bold ${theme}`}>
+		<button className={`CardProductButton txt-main-bold ${theme}`}>
 			<FontAwesomeIcon icon={["fas", "basket-shopping"]} />
 			Añadir a la bolsa
 		</button>
 	);
 };
 
-export default AddToBagButton;
+export default CardProductButton;

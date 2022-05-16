@@ -1,10 +1,14 @@
-import React from 'react';
-import Header from '@organisms/Header';
+import React from "react";
+import Header from "@organisms/Header";
+import CardProduct from "@organisms/CardProduct";
 
 const Organisms = () => {
-	return (
-		<Header />
-	);
+   return (
+      <div>
+         <Header />
+         <CardProduct />
+      </div>
+   );
 };
 
 export default Organisms;

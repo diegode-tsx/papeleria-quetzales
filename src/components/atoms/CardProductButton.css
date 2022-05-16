@@ -1,4 +1,4 @@
-.AddToBagButton {
+.CardProductButton {
 	font-family: "Quicksand";
 	padding: 10px 15px;
 	border: none;
@@ -12,22 +12,22 @@
 	transition: 0.3s ease all;
 }
 
-.AddToBagButton svg {
+.CardProductButton svg {
 	margin-right: 10px;
 }
 
-.AddToBagButton.cinnamon {
+.CardProductButton.cinnamon {
 	background: var(--cinnamon);
 }
 
-.AddToBagButton.cinnamon {
+.CardProductButton.cinnamon {
 	background: var(--cinnamon);
 }
 
-.AddToBagButton.violet {
+.CardProductButton.violet {
 	background: var(--violet);
 }
 
-.AddToBagButton.copper {
+.CardProductButton.copper {
 	background: var(--copper);
 }

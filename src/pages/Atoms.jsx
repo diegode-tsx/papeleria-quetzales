@@ -4,7 +4,7 @@ import NavBar from "@atoms/NavBar";
 import Button from "@atoms/Button";
 import CardProductInfo from "@atoms/CardProductInfo";
 import BagButton from "@atoms/BagButton";
-import AddToBagButton from "@atoms/AddToBagButton";
+import CardProductButton from "@atoms/CardProductButton";
 import Input from "@atoms/Input";
 import Select from "@atoms/Select";
 import GoogleButton from "@atoms/GoogleButton";
@@ -24,7 +24,7 @@ const Atoms = () => {
          />
          <GoogleButton />
          <BagButton />
-         <AddToBagButton theme="cinnamon" />
+         <CardProductButton theme="cinnamon" />
          <CardProductInfo theme="cinnamon" hasDiscount={true}/>
          <Controls theme="gray" />
          <BagProductInfo />

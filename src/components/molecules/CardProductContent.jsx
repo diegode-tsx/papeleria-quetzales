@@ -3,11 +3,12 @@ import CardProductInfo from "@atoms/CardProductInfo";
 import Controls from "@atoms/Controls";
 import "./CardProductContent.css";
 
-const CardProductContent = () => {
+const CardProductContent = ({theme}) => {
+	theme = theme || "cinnamon";
    return (
       <div className="CardProductContent">
-         <CardProductInfo theme="cinnamon" hasDiscount={true}/>
-         <Controls theme="cinnamon" />
+         <CardProductInfo theme={theme} hasDiscount={true}/>
+         <Controls theme={theme} />
       </div>
    );
 };

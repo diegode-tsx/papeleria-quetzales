@@ -1,7 +1,6 @@
 .CardProductInfo {
    display: flex;
    flex-direction: column;
-   width: 200px;
 }
 
 .CardProductInfo-image-container {
