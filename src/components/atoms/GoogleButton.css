@@ -1,0 +1,25 @@
+.GoogleButton {
+   font-family: "Quicksand";
+	display: flex;
+   align-items: center;
+   width: 100%;
+   justify-content: center;
+   padding: 10px;
+   border-radius: 3px;
+   cursor: pointer;
+   transition: 0.3s ease all;
+	color: var(--gray);
+	border: 2px solid var(--gray);
+	background: var(--white);
+}
+
+.GoogleButton:hover {
+   background: var(--gray);
+	color: var(--white);
+}
+
+.GoogleButton-icon {
+	width: 16px;
+	margin-right: 10px;
+	vertical-align: top;
+}

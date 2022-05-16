@@ -6,6 +6,8 @@ import CardProductInfo from "@atoms/CardProductInfo";
 import BagButton from "@atoms/BagButton";
 import AddToBagButton from "@atoms/AddToBagButton";
 import Input from "@atoms/Input";
+import Select from "@atoms/Select";
+import GoogleButton from "@atoms/GoogleButton";
 
 const Atoms = () => {
    return (
@@ -15,13 +17,15 @@ const Atoms = () => {
          <Button
             text="Registrarse"
             style="outline"
-            size="full-width"
+            size="medium"
             icon="user-plus"
          />
          <CardProductInfo theme="cinnamon" />
          <BagButton />
          <AddToBagButton theme="cinnamon" />
          <Input type="text" text="Nombre" />
+			<Select />
+			<GoogleButton />
       </div>
    );
 };

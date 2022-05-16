@@ -1,30 +1,34 @@
-.Input {
+.Select {
    position: relative;
    padding-top: 25px;
 }
 
-.Input-field {
-	font-family: "Quicksand";
+.Select-field {
+   font-family: "Quicksand";
    padding: 10px;
    border: 2px solid var(--primary);
    border-radius: 3px;
-   outline: none;
-	color: var(--black);
-   transition: 0.3s ease all;
+   background: var(--white);
+   color: var(--black);
+   
 }
 
-.Input-field:focus {
+.Select-field:focus {
    border-color: var(--zomp);
    background: var(--primary);
    color: var(--white);
 }
 
-.Input-field:focus + .Input-label {
+.Select-field:focus .Select-option {
+   color: var(--white);
+}
+
+.Select-field:focus + .Select-label {
    background: var(--zomp);
    color: var(--white);
 }
 
-.Input-label {
+.Select-label {
    position: absolute;
    top: 0;
    left: 0;
