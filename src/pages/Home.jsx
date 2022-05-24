@@ -23,7 +23,6 @@ export default function Home() {
     const fetchProducts = () => {
         Commerce.products.list().then((products) => {
           setProducts(products.data);
-          console.log(products.data)
         }).catch((error) => {
           console.log('There was an error fetching the products', error)
         });
@@ -32,7 +31,6 @@ export default function Home() {
     else return <h1>Loading...</h1>;
 
     function showHome(){
-        console.log(products)
         return (
             <div>
                 <ProductsList 

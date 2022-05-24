@@ -21,6 +21,9 @@ const ProductItem = ({ product }) => {
                   {product.price.formatted_with_symbol}
                 </p>
                 <p>
+                  Categoria: {product?.categories[0]?.name}
+                </p>
+                <p>
                     Disponibles: {product.inventory.available}
                 </p>
             </div>
